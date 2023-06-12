@@ -1,0 +1,31 @@
+#place-for-content {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 20px;
+}
+.cover-image {
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
