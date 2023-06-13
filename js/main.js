@@ -32,6 +32,12 @@ client.getEntries({content_type: 'anaiahLebreton'}).then(function (entries) {
       var postDate = document.createElement("p");
       postDate.innerHTML = entry.fields.postDate;
       item.append(postDate);
+        
+      var getDetails = document.createElement("a");
+      getDetails.innerHTML = "See Full";
+      getDetails.href = "details.html?id=" + entry.sys.id;
+
+      item.append(getDetails);
 
 
       document.getElementById("place-for-content").append(item);
